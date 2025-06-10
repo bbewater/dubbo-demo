@@ -8,4 +8,5 @@ package com.bewater.dubboApi;
  * @Date: 2025/6/10
  */
 public interface UserService {
+    String sayHello();
 }

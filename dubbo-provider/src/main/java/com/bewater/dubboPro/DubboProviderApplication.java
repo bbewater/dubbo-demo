@@ -1,3 +1,5 @@
+package com.bewater.dubboPro;
+
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Author: zhoudun
  * @Date: 2025/6/10
  */
-@SpringBootApplication(exclude = {org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration.class})
+@SpringBootApplication
 @EnableDubbo
 public class DubboProviderApplication {
     public static void main(String[] args) {
